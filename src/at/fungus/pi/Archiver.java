@@ -99,7 +99,7 @@ public class Archiver implements Module {
      */
     public String replaceWithDateformat(String input, String placeholder, String dateformat, Date date) {
     	SimpleDateFormat simpleDateFormat = new SimpleDateFormat(dateformat);
-    	String dateString = simpleDateFormat.format(new Date());
+    	String dateString = simpleDateFormat.format(date);
     	return input.replaceAll(placeholder, dateString);
     }
     
