@@ -8,9 +8,9 @@ As long as that adapter belongs to the B2B-Plugin I have created this open-sourc
 
 
 
-This  module should behave pretty much the same except the parameter removeErroneous was not implemented.
+This module should behave pretty much the same except the parameter removeErroneous was not implemented.
 
-To deploy this module to a SAP PI System you have to install NWDS in that version your PI is and follow this
+To deploy this module to a SAP PI System you have to install NWDS in the version of your PI and follow this
 documentation to generate the neccessary ECB:
 https://blogs.sap.com/2015/01/29/create-sap-pi-adapter-modules-in-ejb-30-standard/
 
